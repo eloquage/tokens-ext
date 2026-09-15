@@ -7,11 +7,21 @@
         "php": "^8.3"
     },
     "php-ext": {
-        "extension-name": "eloquage_tokens"
+      "extension-name": "eloquage_tokens"
+    },
+    "extra": {
+        "pie": {
+            "download-method": "pre-packaged-binary",
+            "asset-prefix": "php_eloquage_tokens",
+            "php-version": "8.5",
+            "architecture": "x86_64",
+            "os": "Linux",
+            "libc": "glibc",
+            "thread-safety": "NTS"
+        }
     },
     "homepage": "https://github.com/eloquage/tokens-ext",
     "support": {
         "source": "https://github.com/eloquage/tokens-ext"
     }
 }
-
